@@ -1,0 +1,8 @@
+name = "New Hugo module by Wild Tech 'Garden'"
+copyright = "© 2023 Wild Tech 'Garden'"
+description = "TBD"
+
+[module]
+[module.hugoVersion]
+min = "0.117.0"
+extended = false

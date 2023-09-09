@@ -1,0 +1,42 @@
+	// cspell:ignore reforme, yzhang, ecmel, davidanson, budparr, mrmlnc, stylelintrc
+	{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../demo-test-site-hugo-wtg"
+		},
+		{
+			"path": "../a-wild-theme-mod-hugo"
+		},
+		{
+			"path": "../wild-theme-shell-mod-hugo"
+		}
+	],
+	"settings": {
+		"cSpell.import": [
+			"${workspaceRoot}/cspell.json"
+		],
+		"markdown.extension.toc.levels": "2..4",
+		"markdown.extension.toc.orderedList": true,
+		"markdown.extension.toc.unorderedList.marker": "*",
+		"stylelint.configFile": ".stylelintrc.json"
+	},
+	"extensions": {
+		"recommendations": [
+			"streetsidesoftware.code-spell-checker-canadian-english",
+			"streetsidesoftware.code-spell-checker",
+			"editorconfig.editorconfig",
+			"streetsidesoftware.code-spell-checker-french",
+			"streetsidesoftware.code-spell-checker-french-reforme",
+			"yzhang.markdown-all-in-one",
+			"ecmel.vscode-html-css",
+			"davidanson.vscode-markdownlint",
+			"stylelint.vscode-stylelint",
+			"redhat.vscode-yaml",
+			"budparr.language-hugo-vscode",
+			"mrmlnc.vscode-apache"
+		]
+	}
+}
