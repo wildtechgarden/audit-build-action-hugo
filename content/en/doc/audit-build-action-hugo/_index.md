@@ -30,3 +30,5 @@ information on using the action is in the [README](README.md).
 ## Colophon
 
 [LICENSE](LICENSE)
+
+-------

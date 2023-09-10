@@ -28,3 +28,5 @@ primaires en utiliser l'action sont en le [README](README.fr.md).
 ## Colophon
 
 [LICENSE](LICENSE)
+
+-------
