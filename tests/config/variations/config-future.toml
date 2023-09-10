@@ -48,7 +48,7 @@ target = "content/doc/audit-build-action-hugo"
 lang = "fr"
 
 [[module.imports.mounts]]
-source = "content-drafts/doc/audit-build-action-hugo/demo-depend-future.md"
+source = "content-future/doc/audit-build-action-hugo/demo-depend-future.md"
 target = "content/doc/audit-build-action-hugo/demo-depend-future.md"
 
 [[module.imports.mounts]]
