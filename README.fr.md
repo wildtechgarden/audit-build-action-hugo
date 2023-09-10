@@ -7,6 +7,7 @@ Décrit: Créer un site Web Hugo et [auditer les erreurs
 URL du référentiel: <https://github.com/wildtechgarden/audit-build-action-hugo>\
 Site: TBD\
 Statut IC: [![pre-commit.ci statut](https://results.pre-commit.ci/badge/github/wildtechgarden/audit-build-action-hugo/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/audit-build-action-hugo/main)
+[![test-build-audit](https://github.com/wildtechgarden/audit-build-action-hugo/actions/workflows/test-build-audit.yml/badge.svg)](https://github.com/wildtechgarden/audit-build-action-hugo/actions/workflows/test-build-audit.yml)
 
 ## Matières
 

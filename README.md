@@ -7,6 +7,7 @@ Description: Build a Hugo website and [audit for silent
 Repository URL: <https://github.com/wildtechgarden/audit-build-action-hugo>\
 Site: TBD\
 CI Status: [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/wildtechgarden/audit-build-action-hugo/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/audit-build-action-hugo/main)
+[![test-build-audit](https://github.com/wildtechgarden/audit-build-action-hugo/actions/workflows/test-build-audit.yml/badge.svg)](https://github.com/wildtechgarden/audit-build-action-hugo/actions/workflows/test-build-audit.yml)
 
 ## Contents
 
