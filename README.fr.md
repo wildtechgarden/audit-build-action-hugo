@@ -5,7 +5,7 @@ Décrit: Créer un site Web Hugo et [auditer les erreurs
   Éventuellement, générer une sortie et/ou une utilisation d'artefact ou en
   d'autres tâches.
 URL du référentiel: <https://github.com/wildtechgarden/audit-build-action-hugo>\
-Site: TBD\
+Site: <https://www.audit-build-action-default.wtg-demos.ca>\
 Statut IC: [![pre-commit.ci statut](https://results.pre-commit.ci/badge/github/wildtechgarden/audit-build-action-hugo/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/audit-build-action-hugo/main)
 [![test-build-audit](https://github.com/wildtechgarden/audit-build-action-hugo/actions/workflows/test-build-audit.yml/badge.svg)](https://github.com/wildtechgarden/audit-build-action-hugo/actions/workflows/test-build-audit.yml)
 
@@ -13,11 +13,11 @@ Statut IC: [![pre-commit.ci statut](https://results.pre-commit.ci/badge/github/w
 
 1. [Matières](#matières)
 2. [Configuration and Utilisation](#configuration-and-utilisation)
-   1. [Action inputs variables](#action-inputs-variables)
-   2. [Action outputs variables](#action-outputs-variables)
-   3. [Sample usage](#sample-usage)
-      1. [Single hugo.toml](#single-hugotoml)
-      2. [With an extra configuration file](#with-an-extra-configuration-file)
+  1. [Action inputs variables](#action-inputs-variables)
+  2. [Action outputs variables](#action-outputs-variables)
+  3. [Sample usage](#sample-usage)
+    1. [Single hugo.toml](#single-hugotoml)
+    2. [With an extra configuration file](#with-an-extra-configuration-file)
 3. [Développement](#développement)
 4. [Colophon](#colophon)
 

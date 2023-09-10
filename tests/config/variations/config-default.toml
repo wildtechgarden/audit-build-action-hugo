@@ -1,4 +1,4 @@
-baseURL = 'https://www.audit-build-action-hugo-default.wtg-demos.ca/'
+baseURL = 'https://www.audit-build-action-default.wtg-demos.ca/'
 
 [module]
 replacements = [

@@ -6,7 +6,7 @@ set -o pipefail
 
 rm -rf public
 
-export BASEURL="https://www.audit-build-action-hugo-default.wtg-demos.ca/"
+export BASEURL="https://www.audit-build-action-default.wtg-demos.ca/"
 export HUGO_RESOURCEDIR="$(pwd)"/resources
 export SITECONFIG="$(pwd)"/tests/config/hugo.toml,"$(pwd)"/tests/config/variations/config-default.toml,"$(pwd)"/tests/config/variations/config-latest.toml
 export TARGET="$(pwd)"/public

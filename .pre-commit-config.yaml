@@ -87,6 +87,7 @@ repos:
   - id: markdownlint
     args: [--config, .markdownlint.json]
     files: .+\.(md|markdown)$
+    exclude: ^(README\.md$|README\.fr\.md$)
 
 - repo: "https://github.com/PrincetonUniversity/blocklint"
   rev: v0.2.4
