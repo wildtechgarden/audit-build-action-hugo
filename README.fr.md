@@ -13,11 +13,11 @@ Statut IC: [![pre-commit.ci statut](https://results.pre-commit.ci/badge/github/w
 
 1. [Matières](#matières)
 2. [Configuration and Utilisation](#configuration-and-utilisation)
-  1. [Action inputs variables](#action-inputs-variables)
-  2. [Action outputs variables](#action-outputs-variables)
-  3. [Sample usage](#sample-usage)
-    1. [Single hugo.toml](#single-hugotoml)
-    2. [With an extra configuration file](#with-an-extra-configuration-file)
+   1. [Action inputs variables](#action-inputs-variables)
+   2. [Action outputs variables](#action-outputs-variables)
+   3. [Sample usage](#sample-usage)
+      1. [Single hugo.toml](#single-hugotoml)
+      2. [With an extra configuration file](#with-an-extra-configuration-file)
 3. [Développement](#développement)
 4. [Colophon](#colophon)
 

@@ -13,11 +13,11 @@ CI Status: [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/w
 
 1. [Contents](#contents)
 2. [Configuration and Usage](#configuration-and-usage)
-  1. [Action inputs variables](#action-inputs-variables)
-  2. [Action outputs variables](#action-outputs-variables)
-  3. [Sample usage](#sample-usage)
-    1. [Single hugo.toml](#single-hugotoml)
-    2. [With an extra configuration file](#with-an-extra-configuration-file)
+   1. [Action inputs variables](#action-inputs-variables)
+   2. [Action outputs variables](#action-outputs-variables)
+   3. [Sample usage](#sample-usage)
+      1. [Single hugo.toml](#single-hugotoml)
+      2. [With an extra configuration file](#with-an-extra-configuration-file)
 3. [Development](#development)
 4. [Colophon](#colophon)
 
