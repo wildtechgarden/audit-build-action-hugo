@@ -57,5 +57,5 @@ fi
 exit 0
 ```
 
-And verify that the [future post]({{< relref "demo-future-post" >}}) can be
+And verify that the [future post](demo-future-post.md) can be
 found when `--buildFuture` is used.

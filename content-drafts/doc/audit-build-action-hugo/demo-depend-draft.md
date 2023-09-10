@@ -57,5 +57,5 @@ fi
 exit 0
 ```
 
-And verify that the [draft post]({{< relref "demo-draft-post" >}}) can be found
+And verify that the [draft post](demo-draft-post.md) can be found
 when `--buildDrafts` is used.
