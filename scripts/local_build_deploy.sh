@@ -12,6 +12,6 @@ export SITECONFIG="$(pwd)"/tests/config/hugo.toml,"$(pwd)"/tests/config/variatio
 export TARGET="$(pwd)"/public
 export CURDIR="$(pwd)"
 
-cd tests/config && hugo --gc --minify -b $BASEURL --source "$(pwd)" --destination "${TARGET}" --config "${SITECONFIG}"
+cd tests/config && hugo --gc --minify -b $BASEURL --source "${CURDIR}/tests/config" --destination "${TARGET}" --config "${SITECONFIG}"
 cd "${CURDIR}"
 rclone sync --progress --checksum public/ wtg-auditdefault:./
