@@ -1,0 +1,50 @@
+---
+# yamllint disable rule:key-ordering
+name: test-build-audit
+on: # yamllint disable-line
+  pull_request:
+    branches:
+    - main
+    types:
+    - assigned
+    - opened
+    - synchronize
+    - reopened
+jobs:
+  # yamllint disable rule:line-length
+  audit-only:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        hugo-version: [0.112.7, 0.115.4, 0.117.0, latest]
+        post-status: [default, drafts, future]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run audit-build-action-hugo using config from tests/config
+      uses: ./
+      with:
+        base-url: "https://example.com/"
+        config-file: hugo.toml,variations/config-${{ matrix.post-status }}.toml,variations/config-${{ matrix.hugo-version }}.toml
+        hugo-version: ${{ matrix.hugo-version }}
+        include-drafts-audit: ${{ toJSON(matrix.post-status == 'drafts') }}
+        include-future-audit: ${{ toJSON(matrix.post-status == 'future') }}
+        source-directory: tests/config
+  upload-artifact:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        post-status: [default, drafts, future]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run hugo-action-build-audit from src dir to public
+      uses: ./
+      with:
+        config-file: hugo.toml,variations/config-${{ matrix.post-status }}.toml,variations/config-latest.toml
+        include-drafts-bundle: ${{ toJSON(matrix.post-status == 'drafts') }}
+        include-future-bundle: ${{ toJSON(matrix.post-status == 'future') }}
+        output-directory: public-${{ matrix.post-status }}
+        source-directory: tests/config
+        upload-site-as: unminified-site-${{ matrix.post-status }}
+# yamllint enable rule:line-length
+# yamllint enable rule:key-ordering
+...

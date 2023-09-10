@@ -25,7 +25,8 @@
 		"./package-lock.json",
 		"./.pre-commit-config.yaml",
 		"./words-*.txt",
-		"_vendor"
+		"_vendor",
+		"content*/**/audit-build-action-hugo/demo-*.md"
 	],
 	"ignoreRegExpList": [],
 	"ignoreWords": [],

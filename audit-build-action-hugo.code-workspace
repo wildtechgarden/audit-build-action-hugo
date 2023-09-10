@@ -1,17 +1,9 @@
-	// cspell:ignore reforme, yzhang, ecmel, davidanson, budparr, mrmlnc, stylelintrc
-	{
+/* cspell:ignore stylelintrc reforme yzhang ecmel davidanson budparr mrmlnc */
+{
 	"folders": [
 		{
+			"name": "audit-build-action-hugo",
 			"path": "."
-		},
-		{
-			"path": "../demo-test-site-hugo-wtg"
-		},
-		{
-			"path": "../a-wild-theme-mod-hugo"
-		},
-		{
-			"path": "../wild-theme-shell-mod-hugo"
 		}
 	],
 	"settings": {

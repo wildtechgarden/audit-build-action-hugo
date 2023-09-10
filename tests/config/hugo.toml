@@ -1,7 +1,5 @@
 # cspell:ignore pubdate
-baseURL = "https://www.module-starter.wtg-demos.ca/"
 copyright = "© 2023 Wild Tech 'Garden'"
-homepage = "https://www.module-starter.wtg-demos.ca/"
 languageCode = "en"
 defaultContentLanguage = "en"
 enableGitInfo = true
@@ -18,12 +16,12 @@ timeout = "600s"
 [languages.fr]
 contentDir = "content/fr"
 languageName = "Française"
-title = "Hugo site aux manifs aux module de démarrage"
+title = "Échantillon de action créer-auditer de Hugo á GitHub"
 weight = 10
 
 [languages.fr.params]
 copyright = "© 2023 Wild Tech «Garden»"
-description = "Site manif aux modules de démarrage aux Wild Tech «Garden» (WTG)"
+description = "Site manif de action créer-auditer de Hugo á GitHub"
 
 [languages.fr.menu]
 [[languages.fr.menu.main]]
@@ -47,12 +45,12 @@ weight = 50
 [languages.en]
 contentDir = "content/en"
 languageName = "English"
-title = "Hugo demo site for WTG module starter"
+title = "Hugo demo site for build-audit action"
 weight = 1
 
 [languages.en.params]
 copyright = "© 2023 Wild Tech 'Garden'"
-description = "Demo site for Wild Tech 'Garden's (WTG) module starter"
+description = "Hugo demo site for build-audit action for GitHub"
 
 [languages.en.menu]
 [[languages.en.menu.main]]
@@ -80,12 +78,12 @@ pageRef = "/demo"
 weight = 50
 
 [params]
-issueReportUrl = "https://github.com/wildtechgarden/module-starter-hugo-wtg/issues/new"
+issueReportUrl = "https://github.com/wildtechgarden/audit-build-action-hugo/issues/new"
 mainSections = ["demo","doc"]
 redirectsDomains = [
-	"module-starter.wtg-demos.ca",
-	"module-starter.wtg-demos.com",
-	"www.module-starter.wtg-demos.com"
+	"audit-build-hugo-action.wtg-demos.ca",
+	"audit-build-hugo-action.wtg-demos.com",
+	"www.audit-build-hugo-action.wtg-demos.com"
 ]
 redirectsExtra = []
 staticFallback = false
@@ -156,134 +154,3 @@ disabled = true
 
 [privacy.youtube]
 disabled = true
-
-[module]
-[[module.mounts]]
-source = "static"
-target = "static"
-
-[[module.imports]]
-ignoreImports = true
-path = "github.com/wildtechgarden/module-starter-hugo-wtg"
-
-[[module.imports.mounts]]
-source = "static"
-target = "static"
-
-[[module.imports.mounts]]
-source = "layouts"
-target = "layouts"
-
-[[module.imports.mounts]]
-source = "data"
-target = "data"
-
-[[module.imports.mounts]]
-source = "assets"
-target = "assets"
-
-[[module.imports.mounts]]
-source = "i18n"
-target = "i18n"
-
-[[module.imports.mounts]]
-source = "archetypes"
-target = "archetypes"
-
-[[module.imports.mounts]]
-source = "content/en/demo/module-starter"
-target = "content/demo/module-starter"
-lang = "en"
-
-[[module.imports.mounts]]
-source = "content/fr/demo/module-starter"
-target = "content/demo/module-starter"
-lang = "fr"
-
-[[module.imports.mounts]]
-source = "content/en/doc/module-starter"
-target = "content/doc/module-starter"
-lang = "en"
-
-[[module.imports.mounts]]
-source = "content/fr/doc/module-starter"
-target = "content/doc/module-starter"
-lang = "fr"
-
-[[module.imports.mounts]]
-source = "README.md"
-target = "content/doc/module-starter/README.md"
-lang = "en"
-
-[[module.imports.mounts]]
-source = "README.fr.md"
-target = "content/doc/module-starter/README.md"
-lang = "fr"
-
-[[module.imports.mounts]]
-source = "LICENSE"
-target = "content/doc/module-starter/LICENSE"
-
-[[module.imports]]
-ignoreImports = true
-path = "github.com/wildtechgarden/demo-test-site-hugo-wtg"
-
-[[module.imports.mounts]]
-source = "static"
-target = "static"
-
-[[module.imports.mounts]]
-source = "layouts"
-target = "layouts"
-
-[[module.imports.mounts]]
-source = "data"
-target = "data"
-
-[[module.imports.mounts]]
-source = "assets"
-target = "assets"
-
-[[module.imports.mounts]]
-source = "i18n"
-target = "i18n"
-
-[[module.imports.mounts]]
-source = "archetypes"
-target = "archetypes"
-
-[[module.imports.mounts]]
-source = "content/en"
-target = "content"
-lang = "en"
-
-[[module.imports.mounts]]
-source = "content/fr"
-target = "content"
-lang = "fr"
-
-[[module.imports]]
-path = "github.com/wildtechgarden/a-wild-theme-mod-hugo"
-
-source = "static"
-target = "static"
-
-[[module.imports.mounts]]
-source = "layouts"
-target = "layouts"
-
-[[module.imports.mounts]]
-source = "data"
-target = "data"
-
-[[module.imports.mounts]]
-source = "assets"
-target = "assets"
-
-[[module.imports.mounts]]
-source = "i18n"
-target = "i18n"
-
-[[module.imports.mounts]]
-source = "archetypes"
-target = "archetypes"

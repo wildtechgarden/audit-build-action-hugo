@@ -25,6 +25,7 @@ rclone
 stylelint
 unminified
 wcag
+webp
 wildtechgarden
 wtgdeml
 wtgdemos

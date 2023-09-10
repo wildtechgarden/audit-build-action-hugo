@@ -1,4 +1,4 @@
-module github.com/wildtechgarden/module-starter-hugo-wtg/tests/config
+module github.com/wildtechgarden/audit-build-action-hugo/tests/config
 
 go 1.21.0
 
