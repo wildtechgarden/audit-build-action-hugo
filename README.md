@@ -3,7 +3,7 @@
 Description: Build a Hugo website and [audit for silent
   errors](https://discourse.gohugo.io/t/audit-your-published-site-for-problems/35184/8).
   Optionally generate output and/or an artifact for use by other jobs in a
-  GitHub Actions Workflow (e.g. for other tests or deployment).
+  GitHub Actions Workflow (e.g. for other tests or deployment).\
 Repository URL: <https://github.com/wildtechgarden/audit-build-action-hugo>\
 Site: <https://www.audit-build-action-default.wtg-demos.ca>\
 CI Status: [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/wildtechgarden/audit-build-action-hugo/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/audit-build-action-hugo/main)

@@ -3,7 +3,7 @@
 Décrit: Créer un site Web Hugo et [auditer les erreurs
   silencieuses](https://discourse.gohugo.io/t/audit-your-published-site-for-problems/35184/8).
   Éventuellement, générer une sortie et/ou une utilisation d'artefact ou en
-  d'autres tâches.
+  d'autres tâches.\
 URL du référentiel: <https://github.com/wildtechgarden/audit-build-action-hugo>\
 Site: <https://www.audit-build-action-default.wtg-demos.ca>\
 Statut IC: [![pre-commit.ci statut](https://results.pre-commit.ci/badge/github/wildtechgarden/audit-build-action-hugo/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/audit-build-action-hugo/main)
