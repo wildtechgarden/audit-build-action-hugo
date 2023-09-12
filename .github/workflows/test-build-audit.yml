@@ -58,14 +58,12 @@ jobs:
       matrix:
         post-status: [default, drafts, future]
     steps:
-    - uses: actions/checkout@v4
     - name: Validate HTML from artifact
-      uses: ./
+      uses: wildtechgarden/validator-html-action@main
       with:
         download-site-as: unminified-site-${{ matrix.post-status }}
         output-directory: public-${{ matrix.post-status }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-
 # yamllint enable rule:line-length
 # yamllint enable rule:key-ordering
 ...
