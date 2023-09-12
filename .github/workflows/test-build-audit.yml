@@ -29,6 +29,12 @@ jobs:
         include-drafts-audit: ${{ toJSON(matrix.post-status == 'drafts') }}
         include-future-audit: ${{ toJSON(matrix.post-status == 'future') }}
         source-directory: tests/config
+    - name: Validate HTML in output-directory
+      uses: ./
+      with:
+        output-directory: public-${{ matrix.post-status }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        use-existing-workspace: "true"
   upload-artifact:
     runs-on: ubuntu-22.04
     strategy:
@@ -45,6 +51,21 @@ jobs:
         output-directory: public-${{ matrix.post-status }}
         source-directory: tests/config
         upload-site-as: unminified-site-${{ matrix.post-status }}
+  validate-html-artifact:
+    needs: upload-artifact
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        post-status: [default, drafts, future]
+    steps:
+    - uses: actions/checkout@v4
+    - name: Validate HTML from artifact
+      uses: ./
+      with:
+        download-site-as: unminified-site-${{ matrix.post-status }}
+        output-directory: public-${{ matrix.post-status }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+
 # yamllint enable rule:line-length
 # yamllint enable rule:key-ordering
 ...
