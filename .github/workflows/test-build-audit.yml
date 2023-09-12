@@ -19,7 +19,7 @@ jobs:
         hugo-version: [0.112.7, 0.115.4, 0.117.0, latest]
         post-status: [default, drafts, future]
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Run audit-build-action-hugo using config from tests/config
       uses: ./
       with:
@@ -30,7 +30,7 @@ jobs:
         include-future-audit: ${{ toJSON(matrix.post-status == 'future') }}
         source-directory: tests/config
     - name: Validate HTML in output-directory
-      uses: ./
+      uses: wildtechgarden/validator-html-action@main
       with:
         output-directory: public-${{ matrix.post-status }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
