@@ -101,6 +101,70 @@ email = "dfdpublic@wildtechgarden.ca"
 name = "Daniel F. Dickinson"
 email = "dfdpublic@wildtechgarden.ca"
 
+[[cascade]]
+omitFromFeeds = true
+[cascade._target]
+kind = "taxonomy"
+
+[[cascade]]
+omitFromFeeds = true
+[cascade._target]
+kind = "term"
+
+[[cascade]]
+pageCanonical = false
+toRelCanonical = "https://www.wtg-demos.ca"
+[cascade._target]
+path = "/_index.md"
+lang = "en"
+
+[[cascade]]
+pageCanonical = false
+toRelCanonical = "https://www.wtg-demos.ca"
+[cascade._target]
+path = "/_index.md"
+lang = "fr"
+
+[[cascade]]
+pageCanonical = true
+[cascade._target]
+path = "/{about,demo,doc}/_index.md"
+lang = "en"
+
+[[cascade]]
+pageCanonical = true
+[cascade._target]
+path = "/{about,demo,doc}/_index.md"
+lang = "fr"
+
+[[cascade]]
+pageCanonical = false
+toRelCanonical = "https://www.wtg-demos.ca"
+[cascade._target]
+path = "/{about,demo,doc}/[!_]*.md"
+lang = "en"
+
+[[cascade]]
+pageCanonical = false
+toRelCanonical = "https://www.wtg-demos.ca"
+[cascade._target]
+path = "/{about,demo,doc}/[!_]*.md"
+lang = "fr"
+
+[[cascade]]
+pageCanonical = false
+toRelCanonical = "https://www.wtg-demos.ca"
+[cascade._target]
+path = "/{about,demo,doc}/**/*.md"
+lang = "en"
+
+[[cascade]]
+pageCanonical = false
+toRelCanonical = "https://www.wtg-demos.ca"
+[cascade._target]
+path = "/{about,demo,doc}/**/*.md"
+lang = "fr"
+
 [taxonomies]
 tag = "tags"
 
