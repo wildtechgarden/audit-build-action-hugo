@@ -93,6 +93,14 @@ staticFallback = false
 homepage = "https://www.danielfdickinson.ca/"
 email = "dfdpublic@wildtechgarden.ca"
 
+[params.editor]
+name = "Daniel F. Dickinson"
+email = "dfdpublic@wildtechgarden.ca"
+
+[params.webMaster]
+name = "Daniel F. Dickinson"
+email = "dfdpublic@wildtechgarden.ca"
+
 [taxonomies]
 tag = "tags"
 
