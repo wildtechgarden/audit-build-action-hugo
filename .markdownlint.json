@@ -9,5 +9,6 @@
 		"stern": false,
 		"strict": false,
 		"tables": false
-	}
+	},
+	"MD051": true
 }
