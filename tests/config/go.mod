@@ -3,6 +3,6 @@ module github.com/wildtechgarden/audit-build-action-hugo/tests/config
 go 1.21
 
 require (
-	github.com/wildtechgarden/a-wild-theme-mod-hugo v0.1.0-beta.2.0.20230916080133-8d3a92f9248f // indirect
-	github.com/wildtechgarden/demo-test-site-hugo-wtg v0.3.3 // indirect
+	github.com/wildtechgarden/a-wild-theme-mod-hugo v0.1.0-beta.3 // indirect
+	github.com/wildtechgarden/demo-test-site-hugo-wtg v0.3.4 // indirect
 )
